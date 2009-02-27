@@ -1,0 +1,6 @@
+category: Audio
+requires: cygwin mpd
+sdesc: "Console client for the Music Player Daemon"
+ldesc: "mpc is a client for MPD, the Music Player Daemon. mpc provides a 
+command line user interface for controlling an MPD server running on the 
+local network."

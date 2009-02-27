@@ -1,0 +1,66 @@
+mpc
+------------------------------------------
+mpc is a client for MPD, the Music Player Daemon. mpc provides a command 
+line user interface for controlling an MPD server running on the local 
+network.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  mpd-0.14.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.9-1.9.6-3
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://mpd.wikia.com/wiki/Client:Mpc
+
+Canonical download:
+  http://downloads.sourceforge.net/musicpd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack mpc-0.15-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./mpc-0.15-X.cygport all
+
+This will create:
+  /usr/src/mpc-0.15-X-src.tar.bz2
+  /usr/src/mpc-0.15-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/mpc.exe
+  /usr/share/doc/mpc-0.15/AUTHORS
+  /usr/share/doc/mpc-0.15/COPYING
+  /usr/share/doc/mpc-0.15/INSTALL
+  /usr/share/doc/mpc-0.15/NEWS
+  /usr/share/doc/mpc-0.15/README
+  /usr/share/doc/mpc-0.15/mpc-bashrc
+  /usr/share/doc/mpc-0.15/mpd-m3u-handler.sh
+  /usr/share/doc/mpc-0.15/mpd-pls-handler.sh
+  /usr/share/doc/mpc-0.15/mppledit
+  /usr/share/man/man1/mpc.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.15-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
