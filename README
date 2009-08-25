@@ -5,16 +5,16 @@ line user interface for controlling an MPD server running on the local
 network.
 
 Runtime requirements:
-  cygwin-1.7.0-50
+  cygwin-1.7.0-60
   libgcc1-4.3.2-2
-  mpd-0.15-1
+  mpd-0.15.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
+  autoconf2.5-2.64-10
   automake1.9-1.9.6-10
   binutils-2.19.51-1
-  cygport-0.9.7-1
+  cygport-0.9.9-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
   make-3.81-2
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack mpc-0.16-X-src.tar.bz2
+  unpack mpc-0.17-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./mpc-0.16-X.cygport all
+  cygport ./mpc-0.17-X.cygport all
 
 This will create:
-  /usr/src/mpc-0.16-X-src.tar.bz2
-  /usr/src/mpc-0.16-X.tar.bz2
+  /usr/src/mpc-0.17-X-src.tar.bz2
+  /usr/src/mpc-0.17-X.tar.bz2
 
 -------------------------------------------
 
@@ -57,6 +57,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.17-1 -----
+Version bump.
 
 ----- version 0.16-1 -----
 Initial release for Cygwin 1.7.
