@@ -1,0 +1,11 @@
+--- origsrc/mpc-0.22/configure.ac	2012-02-04 16:29:39.000000000 -0600
++++ src/mpc-0.22/configure.ac	2012-02-12 19:18:02.954356500 -0600
+@@ -32,7 +32,7 @@ dnl OS specific defaults
+ dnl
+ 
+ case "$host" in
+-*-mingw32* | *-windows* | *-cygwin*)
++*-mingw32* | *-windows*)
+ 	AM_CFLAGS="$AM_CFLAGS -mms-bitfields -fno-strict-aliasing"
+ 	AM_CPPFLAGS="$AM_CPPFLAGS -DMPD_NO_GAI"
+ 	;;

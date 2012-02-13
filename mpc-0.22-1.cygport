@@ -1,4 +1,4 @@
 DESCRIPTION="Command-line client for the Music Player Daemon"
 HOMEPAGE="http://mpd.wikia.com/wiki/Client:Mpc"
 SRC_URI="mirror://sourceforge/musicpd/${P}.tar.bz2"
-PATCH_URI="0.15-cygwin.patch"
+PATCH_URI="0.22-cygwin.patch"
