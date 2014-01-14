@@ -1,5 +1,5 @@
 NAME="mpc"
-VERSION=0.23
+VERSION=0.25
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="Console client for the Music Player Daemon"
@@ -7,5 +7,5 @@ DESCRIPTION="mpc is a client for MPD, the Music Player Daemon. mpc provides a
 command line user interface for controlling an MPD server running on the local
 network."
 HOMEPAGE="http://www.musicpd.org"
-SRC_URI="http://www.musicpd.org/download/mpc/${VERSION%%.*}/mpc-${VERSION}.tar.bz2"
+SRC_URI="http://www.musicpd.org/download/mpc/${VERSION%%.*}/mpc-${VERSION}.tar.xz"
 PATCH_URI="0.22-cygwin.patch"
