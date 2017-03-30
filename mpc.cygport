@@ -1,5 +1,5 @@
 NAME="mpc"
-VERSION=0.25
+VERSION=0.28
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="Console client for the Music Player Daemon"
